@@ -1,0 +1,8 @@
+<h1>Registration form</h1>
+<form  action="". method="POST">
+{%csrf_token%}
+{{form.as_p}}
+<input type="submit" value="Submit">
+</form>
+<a href="http://127.0.0.1:8000/forget">forget password</a>
+<a href="http://127.0.0.1:8000/delete">delete Account</a>

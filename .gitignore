@@ -1,0 +1,5 @@
+__pycache__
+migrations
+./accounts/__pycache__
+./accounts/migrations
+./userAccounts/__pycache__
